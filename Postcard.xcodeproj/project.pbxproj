@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B2EAB0A19E07B2500A82EF5 /* fco.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0B2EAB0919E07B2500A82EF5 /* fco.JPG */; };
 		0B3595C319DF4049000138CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3595C219DF4049000138CA /* AppDelegate.swift */; };
 		0B3595C519DF4049000138CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3595C419DF4049000138CA /* ViewController.swift */; };
 		0B3595C819DF404A000138CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B3595C619DF404A000138CA /* Main.storyboard */; };
 		0B3595CA19DF404A000138CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B3595C919DF404A000138CA /* Images.xcassets */; };
 		0B3595CD19DF404A000138CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B3595CB19DF404A000138CA /* LaunchScreen.xib */; };
 		0B3595D919DF404A000138CA /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3595D819DF404A000138CA /* PostcardTests.swift */; };
+		0B3595E319DF4A98000138CA /* Yosemite.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0B3595E219DF4A98000138CA /* Yosemite.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B2EAB0919E07B2500A82EF5 /* fco.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fco.JPG; sourceTree = "<group>"; };
 		0B3595BD19DF4049000138CA /* Postcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B3595C119DF4049000138CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B3595C219DF4049000138CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		0B3595D219DF404A000138CA /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B3595D719DF404A000138CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B3595D819DF404A000138CA /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		0B3595E219DF4A98000138CA /* Yosemite.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yosemite.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		0B3595C019DF4049000138CA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0B2EAB0919E07B2500A82EF5 /* fco.JPG */,
+				0B3595E219DF4A98000138CA /* Yosemite.jpg */,
 				0B3595C119DF4049000138CA /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +200,8 @@
 			files = (
 				0B3595C819DF404A000138CA /* Main.storyboard in Resources */,
 				0B3595CD19DF404A000138CA /* LaunchScreen.xib in Resources */,
+				0B3595E319DF4A98000138CA /* Yosemite.jpg in Resources */,
+				0B2EAB0A19E07B2500A82EF5 /* fco.JPG in Resources */,
 				0B3595CA19DF404A000138CA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +415,7 @@
 				0B3595DE19DF404A000138CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B3595DF19DF404A000138CA /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				0B3595E119DF404A000138CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
